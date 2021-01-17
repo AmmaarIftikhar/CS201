@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1608010439 source:c:\users\ammaar\documents\hw\librarysystem\book.cpp
+	<iostream>
+	<string>
+	"Book.h"
+
+1608062756 c:\users\ammaar\documents\hw\librarysystem\book.h
+	<iostream>
+	<string>
+
+1608031241 source:c:\users\ammaar\documents\hw\librarysystem\listb.cpp
+	"ListB.h"
+	"Book.h"
+	<iostream>
+
+1608062804 c:\users\ammaar\documents\hw\librarysystem\listb.h
+	"Book.h"
+
+1608031241 source:c:\users\ammaar\documents\hw\librarysystem\listp.cpp
+	"ListP.h"
+	"Student.h"
+	<iostream>
+
+1608062821 c:\users\ammaar\documents\hw\librarysystem\listp.h
+	"Student.h"
+
+1608062769 c:\users\ammaar\documents\hw\librarysystem\student.h
+	<iostream>
+	<string>
+	"Book.h"
+	"ListB.h"
+
+1608050963 source:c:\users\ammaar\documents\hw\librarysystem\librarysystem.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"Student.h"
+	"Book.h"
+	"LibrarySystem.h"
+	"ListP.h"
+	"ListB.h"
+
+1608062729 c:\users\ammaar\documents\hw\librarysystem\librarysystem.h
+	<iostream>
+	<string>
+	"Book.h"
+	"ListP.h"
+	"ListB.h"
+	"Student.h"
+
+1608050288 source:c:\users\ammaar\documents\hw\librarysystem\student.cpp
+	<iostream>
+	<string>
+	"Student.h"
+	"Book.h"
+	"ListB.h"
+
+1608048888 source:c:\users\ammaar\documents\hw\librarysystem\main.cpp
+	<iostream>
+	<string>
+	"Student.h"
+	"Book.h"
+	"LibrarySystem.h"
+
+1608062746 source:c:\users\ammaar\documents\hw\hw3\librarysystem\book.cpp
+	<iostream>
+	<string>
+	"Book.h"
+
+1608062756 c:\users\ammaar\documents\hw\hw3\librarysystem\book.h
+	<iostream>
+	<string>
+
+1608813283 source:c:\users\ammaar\documents\hw\hw3\librarysystem\librarysystem.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"Student.h"
+	"Book.h"
+	"LibrarySystem.h"
+	"ListP.h"
+	"ListB.h"
+
+1608062769 c:\users\ammaar\documents\hw\hw3\librarysystem\student.h
+	<iostream>
+	<string>
+	"Book.h"
+	"ListB.h"
+
+1608062804 c:\users\ammaar\documents\hw\hw3\librarysystem\listb.h
+	"Book.h"
+
+1608062729 c:\users\ammaar\documents\hw\hw3\librarysystem\librarysystem.h
+	<iostream>
+	<string>
+	"Book.h"
+	"ListP.h"
+	"ListB.h"
+	"Student.h"
+
+1608062821 c:\users\ammaar\documents\hw\hw3\librarysystem\listp.h
+	"Student.h"
+
+1608062812 source:c:\users\ammaar\documents\hw\hw3\librarysystem\listb.cpp
+	"ListB.h"
+	"Book.h"
+	<iostream>
+
+1608062792 source:c:\users\ammaar\documents\hw\hw3\librarysystem\listp.cpp
+	"ListP.h"
+	"Student.h"
+	<iostream>
+
+1608062762 source:c:\users\ammaar\documents\hw\hw3\librarysystem\student.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"Student.h"
+	"Book.h"
+	"ListB.h"
+
+1608795971 source:c:\users\ammaar\documents\hw\hw3\librarysystem\main.cpp
+	<iostream>
+	"LibrarySystem.h"
+

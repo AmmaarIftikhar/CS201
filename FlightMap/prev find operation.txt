@@ -1,0 +1,108 @@
+void FlightMap::findFlights( const string deptCity, const string destCity) const{
+   bool mark[length];
+   int row{0}, index{-1};
+   Stack path;
+   ListF allPaths[length];
+
+   // mark all elements false
+   for( int i = 0; i < length; i++)
+      mark[i] = false;
+
+   // find the index of the origin city
+   index = getIndex( deptCity);
+
+   // mark the city as visited.
+   mark[index] = true;
+   string top;
+   top = deptCity;
+   path.push( top);
+
+   while( !path.isEmpty()){
+      int nextPos;
+      index = getIndex( top);
+      bool allMrkd{ true};
+
+      // check if all of the neighbors of the top city are marked
+      // issue from here --infinite loop   cleared
+      // circular movement in the loops -- not cleared
+      for( int j = 2; j <= neighborList[index].getLength(); j++){
+         string ele;
+         neighborList[index].retrieve( j, ele);
+         int index2 = getIndex( ele);
+
+         if( !mark[ index2]){
+            allMrkd = false;
+            nextPos = index2;
+            break;
+         }
+      }
+
+      if( neighborList[index].getLength() <= 1 || allMrkd){
+         mark[index]  = true;
+         path.pop();
+      }
+      else{
+         // choose a destination, check if unvisited
+         // if unvisited put on stack otherwise check other
+         string head;
+         neighborList[nextPos].retrieve( 1, head);
+         path.push( head);
+      }
+
+      string d1;
+      path.getTop( d1);
+      if( d1 == destCity){
+         Stack tStack;
+         string a;
+
+         path.pop( a);
+         allPaths[row].insert( 1, a);
+         path.pop( a);
+         int ap = getIndex( a);
+
+         allPaths[row].insert( 1, a);
+         path.pop( a);
+         while( a != deptCity){
+            allPaths[row].insert( 1, a);
+            path.pop( a);
+            tStack.push( a);
+         }
+         allPaths[ row++].insert( 1, deptCity);
+         while( !tStack.isEmpty()){
+            tStack.pop( a);
+            path.push( a);
+         }
+      }
+
+      bool topCovered{ true};
+      // issue from here --infinite loop   cleared
+      // circular movement in the loops -- not cleared
+      for( int j = 2; j <= neighborList[index].getLength(); j++){
+         string ele;
+         neighborList[index].retrieve( j, ele);
+
+         // check if all neighbors of the dept are visited
+         int index4 = getIndex( ele);
+         if( !mark[index4]){
+            topCovered = false;
+            break;
+         }
+      }
+      // if all the neighbors of the dept city have been visited exit loop by popping
+      path.getTop( d1);
+      if( d1 == deptCity && topCovered){
+         path.pop();
+      }
+
+      path.getTop( top);
+   }
+
+   for( int i = 0; i < row; i++){
+      for( int j = 1; j <= allPaths[ i].getLength(); j++){
+         string kj;
+         allPaths[ i].retrieve( j, kj);
+         cout<< kj<< ", ";
+      }
+      cout<< endl;
+   }
+}

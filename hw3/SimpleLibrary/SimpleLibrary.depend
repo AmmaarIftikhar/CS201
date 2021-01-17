@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1607947574 source:c:\users\ammaar\documents\hw\simplelibrary\simplelibrarysystem.cpp
+	<iostream>
+	<string>
+	"SimpleStudent.h"
+	"SimpleLibrarySystem.h"
+	"ListP.h"
+
+1608063019 c:\users\ammaar\documents\hw\simplelibrary\simplestudent.h
+	<iostream>
+	<string>
+
+1607506040 c:\users\ammaar\documents\hw\simplelibrary\simplelibrarysystem.h
+	<iostream>
+	<string>
+	"ListP.h"
+	"SimpleStudent.h"
+
+1608063067 c:\users\ammaar\documents\hw\simplelibrary\listp.h
+	"SimpleStudent.h"
+
+1608063092 source:c:\users\ammaar\documents\hw\simplelibrary\simplestudent.cpp
+	<iostream>
+	<string>
+	"SimpleStudent.h"
+
+1608063088 source:c:\users\ammaar\documents\hw\simplelibrary\listp.cpp
+	"ListP.h"
+	"SimpleStudent.h"
+	<iostream>
+
+1607518575 source:c:\users\ammaar\documents\hw\simplelibrary\listb.cpp
+	"ListB.h"
+	"Book.h"
+	<iostream>
+
+1607518617 c:\users\ammaar\documents\hw\simplelibrary\listb.h
+	"Book.h"
+
+1607522785 c:\users\ammaar\documents\hw\simplelibrary\book.h
+	<iostream>
+	<string>
+
+1607522736 c:\users\ammaar\documents\hw\simplelibrary\student.h
+	<iostream>
+	<string>
+	"Book.h"
+	"ListB.h"
+
+1608063088 source:c:\users\ammaar\documents\hw\hw3\simplelibrary\listp.cpp
+	"ListP.h"
+	"SimpleStudent.h"
+	<iostream>
+
+1608063067 c:\users\ammaar\documents\hw\hw3\simplelibrary\listp.h
+	"SimpleStudent.h"
+
+1608063019 c:\users\ammaar\documents\hw\hw3\simplelibrary\simplestudent.h
+	<iostream>
+	<string>
+
+1608063109 source:c:\users\ammaar\documents\hw\hw3\simplelibrary\main.cpp
+
+1608063092 source:c:\users\ammaar\documents\hw\hw3\simplelibrary\simplestudent.cpp
+	<iostream>
+	<string>
+	"SimpleStudent.h"
+

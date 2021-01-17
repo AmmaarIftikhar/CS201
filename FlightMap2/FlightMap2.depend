@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1609487492 source:c:\users\ammaar\documents\hw\flightmap2\flight.cpp
+	<iostream>
+	"Flight.h"
+	<string>
+
+1609487449 c:\users\ammaar\documents\hw\flightmap2\flight.h
+	<iostream>
+	<string>
+
+1609497931 source:c:\users\ammaar\documents\hw\flightmap2\listf.cpp
+	<iostream>
+	<string>
+	"ListF.h"
+
+1609487553 c:\users\ammaar\documents\hw\flightmap2\listf.h
+	<string>
+
+1609497957 source:c:\users\ammaar\documents\hw\flightmap2\listp.cpp
+	"ListP.h"
+	"Flight.h"
+	<iostream>
+	<string>
+
+1609487646 c:\users\ammaar\documents\hw\flightmap2\listp.h
+	"Flight.h"
+
+1609518137 source:c:\users\ammaar\documents\hw\flightmap2\flightmap.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	"Flight.h"
+	"FlightMap.h"
+	"Stack.h"
+	"ListF.h"
+	"ListP.h"
+
+1609511559 c:\users\ammaar\documents\hw\flightmap2\flightmap.h
+	<iostream>
+	"Flight.h"
+	"ListF.h"
+	"ListP.h"
+	<string>
+
+1609487886 c:\users\ammaar\documents\hw\flightmap2\stack.h
+	<iostream>
+	<string>
+
+1609489037 source:c:\users\ammaar\documents\hw\flightmap2\stack.cpp
+	<iostream>
+	<string>
+	"Stack.h"
+
+1609516739 source:c:\users\ammaar\documents\hw\flightmap2\main.cpp
+	"FlightMap.h"
+	<iostream>
+

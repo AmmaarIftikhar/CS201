@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1604842901 source:c:\users\ammaar\documents\hw\flightreservation\aircraft.cpp
+	"Aircraft.h"
+	<iostream>
+
+1604301860 c:\users\ammaar\documents\hw\flightreservation\aircraft.h
+
+1605467108 source:c:\users\ammaar\documents\hw\flightreservation\flight.cpp
+	<iostream>
+	"Aircraft.h"
+	"Flight.h"
+	"Reservation.h"
+	<string>
+	<cmath>
+
+1605463952 c:\users\ammaar\documents\hw\flightreservation\flight.h
+	"Reservation.h"
+	"Aircraft.h"
+	<string>
+	<iostream>
+
+1605465033 source:c:\users\ammaar\documents\hw\flightreservation\reservationsystem.cpp
+	"ReservationSystem.h"
+	"Flight.h"
+	"Aircraft.h"
+	<iostream>
+	<string>
+
+1605162647 c:\users\ammaar\documents\hw\flightreservation\reservationsystem.h
+	<string>
+	"Flight.h"
+	"Reservation.h"
+
+1605465528 source:c:\users\ammaar\documents\hw\flightreservation\reservation.cpp
+	"Flight.h"
+	"Reservation.h"
+	<iostream>
+
+1604839074 c:\users\ammaar\documents\hw\flightreservation\reservation.h
+	"Flight.h"
+	<cstddef>
+
+1605159725 source:c:\users\ammaar\documents\hw\flightreservation\test1.cpp
+	"ReservationSystem.h"
+	<iostream>
+
